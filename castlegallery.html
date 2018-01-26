@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Castle Gallery</title>
+
+    <link rel="stylesheet" type="text/css" href="css/jquery.fullPage.css">
+    <link rel="stylesheet" type="text/css" href="css/castlegallery.css">
+
+
+
+  </head>
+
+  <body>
+
+    <div id="fullpage">
+    	<div class="section" id="section0">
+        <h1>Explore the grandest castles</h1>
+        <h2>in this castle gallery demo</h2>
+        <p>Windsor Castle, England</p>
+      </div>
+
+    	<div class="section lazy" id="section1">
+        <div class="slide lazy" id="slide1">
+          <h3>England</h3>
+          <p>Tower of London</p>
+        </div>
+        <div class="slide lazy" id="slide2">
+          <p>Herstmonceux Castle</p>
+        </div>
+        <div class="slide lazy" id="slide3">
+          <p>Arundel Castle</p>
+        </div>
+        <div class="slide lazy" id="slide4">
+          <p>Caerhays Castle</p>
+        </div>
+        <div class="slide lazy" id="slide5">
+          <p>Eastnor Castle</p>
+      	</div>
+			</div>
+
+			<div class="section lazy" id="section2">
+				<div class="slide lazy" id="slide6">
+					<h3>France</h3>
+					<p>Mont Saint-Michel</p>
+				</div>
+				<div class="slide lazy" id="slide7">
+					<p>Chambord Castle</p>
+				</div>
+				<div class="slide lazy" id="slide8">
+					<p>Chenonceau Castle</p>
+				</div>
+				<div class="slide lazy" id="slide9">
+					<p>Challain Castle</p>
+				</div>
+				<div class="slide lazy" id="slide10">
+					<p>Pierrefonds Castle</p>
+				</div>
+			</div>
+
+			<div class="section lazy" id="section3">
+				<div class="slide lazy" id="slide11">
+					<h3>Germany</h3>
+					<p>Neuschwanstein Castle</p>
+				</div>
+				<div class="slide lazy" id="slide12">
+					<p>Schweriner Castle</p>
+				</div>
+				<div class="slide lazy" id="slide13">
+					<p>Hohenzollern Castle</p>
+				</div>
+				<div class="slide lazy" id="slide14">
+					<p>Drachenburg Castle</p>
+				</div>
+				<div class="slide lazy" id="slide15">
+					<p>Wierschem Castle</p>
+				</div>
+			</div>
+
+
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script type="text/javascript" src="js/jquery.fullPage.min.js"></script>
+    <script type="text/javascript">
+      $(document).ready(function() {
+        $('#fullpage').fullpage({
+				  css3:false,
+			  });
+      });
+    </script>
+
+  </body>
+  </html>
