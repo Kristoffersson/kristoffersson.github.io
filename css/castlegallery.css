@@ -101,3 +101,13 @@ p {
 #slide15 {
 	background-image: url("../images/Germany/Wierschem,_Burg_Eltz,_2012-08_CN-01.jpg");
 }
+
+/*Small only */
+@media screen and (max-width: 39.9375em) {
+	h1 {
+		font-size: 150%;
+	}
+	h2 {
+		font-size: 130%;
+	}
+}
