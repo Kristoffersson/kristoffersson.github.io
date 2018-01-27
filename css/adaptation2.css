@@ -249,7 +249,7 @@ a:hover {
     font-size: 400%;
   }
   #card {
-    overflow: auto;
+    overflow: hidden;
   }
   #card p {
     font-size: 80%;
